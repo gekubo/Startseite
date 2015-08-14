@@ -10,8 +10,9 @@
 body {font-family:Arial, Helvetica, sans-serif; font-size:normal; background:#deebf2 url(bg.png); padding:0; margin:30px auto;}
 img {border:none;}
 table {margin:0 auto; text-align:left;}
-.search {background-color:#fff; border-width:1px; border-color:#000; border-style:dotted; margin:150px auto;}
+.search {background-color:#fff; border-width:0.1em; border-color:#333; border-style:dotted; margin:150px auto; padding: 10px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
 input[type=submit] {padding:5px 15px; background:#eee; border:0 none; cursor:pointer; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+input[type=submit]:hover {color: #eee; background: #666;}
 
 /* QuickMenu Core CSS [Do Not Modify!] */
 .qmmc .qmdivider{display:block;font-size:1px;border-width:0px;border-style:solid;position:relative;z-index:1;}
@@ -142,8 +143,7 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 <table class="search"><tr><td>
 <a href="http://www.google.es"><img src="google.gif"></a></td>
 <td><form method="get" action="http://www.google.es/search" name="search">
-<input type="text" name="q" size="30" maxlength="255" value="">
-<input type="hidden" name="hl" value="en">
+<input type="text" name="q" size="30" maxlength="250" value="">
 <input type="submit" name="btng" value=" Search ">
 </form>
 <script language="javascript">
@@ -152,10 +152,9 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 </td></tr>
 
 <tr><td>
-<a href="http://www.filestube.com"><img src="filestube.gif"></a></td>
-<td><form method="get" action="http://www.filestube.com/search.html" name="search">
-<input type="text" name="q" size="30" maxlength="255" value="">
-<input type="hidden" name="hl" value="en">
+<a href="http://www.filediva.com"><img src="filediva.gif"></a></td>
+<td><form method="get" action="http://www.filediva.com/results.php" name="search">
+<input type="text" name="search" size="30" maxlength="250" value="">
 <input type="submit" name="btng" value=" Search ">
 </form>
 </td></tr>
@@ -163,9 +162,8 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 <tr><td>
 <a href="http://www.torrentz.eu"><img src="torrentz.gif"></a></td>
 <td><form method="get" action="http://www.torrentz.com/search" name="search">
-<input type="text" name="q" size="30" maxlength="255" value="">
-<input type="hidden" name="hl" value="en">
-<input type="submit" name="btng" value=" Search">
+<input type="text" name="q" size="30" maxlength="250" value="">
+<input type="submit" name="btng" value=" Search ">
 </form>
 </td></tr></table>
 
@@ -179,6 +177,7 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 	<a class="dock-item" href="http://www.facebook.com"><span>Facebook</span><img src="./icons/facebook.png" alt="" /></a>
 	<a class="dock-item" href="http://twitter.com/home"><span>Twitter</span><img src="./icons/twitter.png" alt="" /></a>
 	<a class="dock-item" href="http://www.stumbleupon.com"><span>StumbleUpon</span><img src="./icons/stumbleupon.png" alt="" /></a>
+	<a class="dock-item" href="http://www.reddit.com"><span>Reddit</span><img src="./icons/reddit.png" alt="" /></a>
 	<a class="dock-item" href="http://www.meneame.net"><span>Meneáme</span><img src="./icons/meneame.png" alt="" /></a>
 	<a class="dock-item" href="http://www.google.com/calendar/render?tab=wc&pli=1"><span>Calendar</span><img src="./icons/calendar.png" alt="" /></a>
 	<a class="dock-item" href="http://www.google.es/maps/preview?hl=es"><span>Maps</span><img src="./icons/maps.png" alt="" /></a>
@@ -188,7 +187,7 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 	<a class="dock-item" href="http://www.panoramio.com/user/xxxx"><span>Panoramio</span><img src="./icons/panoramio.png" alt="" /></a>
 	<a class="dock-item" href="http://www.youtube.com/user/xxxx"><span>YouTube</span><img src="./icons/youtube.png" alt="" /></a>
 	<a class="dock-item" href="http://soundcloud.com/xxxx"><span>Soundcloud</span><img src="./icons/soundcloud.png" alt="" /></a>
-	<a class="dock-item" href="http://series.ly/scripts/"><span>Series.ly</span><img src="./icons/seriesly.png" alt="" /></a>
+	<a class="dock-item" href="http://es.tviso.com/home"><span>Tviso</span><img src="./icons/tviso.png" alt="" /></a>
 	<a class="dock-item" href="http://www.icloud.com"><span>iCloud</span><img src="./icons/icloud.png" alt="" /></a>
 	<a class="dock-item" href="http://i.xiaomi.com/#home"><span>Mi Cloud</span><img src="./icons/micloud.png" alt="" /></a>
 </div>
